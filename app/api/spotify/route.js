@@ -57,7 +57,7 @@ export async function GET(request) {
     });
 
     if (!response.ok) {
-      throw new Error('Spotify search API error');
+      throw new Error('Spotify search API error!!');
     }
 
     const data = await response.json();
